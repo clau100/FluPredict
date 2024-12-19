@@ -38,7 +38,7 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> Upload(IFormFile csvFile)
     {
-        if (csvFile == null || csvFile.Length == 0)
+        if (csvFile == null || csvFile.Length == 0 || !csvFile.FileName.EndsWith(".csv"))
         {
             ModelState.AddModelError("csvFile", "Please select a CSV file.");
             return View();

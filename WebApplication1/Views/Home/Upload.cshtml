@@ -13,3 +13,14 @@
     </div>
     <button type="submit" class="btn btn-primary">Upload</button>
 </form>
+
+@section Scripts {
+    <script>
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <text>
+                alert("Please select a CSV file.");
+            </text>
+        }
+    </script>
+}

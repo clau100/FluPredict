@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S139FHN9xXxAJBMvgd8oUBMeOcfk6SnC2BYdpLEDv7g=",
+  "Hash": "4pchYrUhShRTOx1skRCauYrTvxYMKcixwVdDQIg5tTw=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -2159,6 +2159,27 @@
       "OriginalItemSpec": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\cwss25bdnh-omi6us8qrz.gz",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "FluPredict#[.{fingerprint=omi6us8qrz}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\FluPredict.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mdcl32hqxp",
+      "Integrity": "FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\FluPredict.ico"
+    },
+    {
       "Identity": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\cynp17w084-c2oey78nd0.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -4070,6 +4091,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\FluPredict.ico",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "FluPredict#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "omi6us8qrz",
+      "Integrity": "MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FluPredict.ico"
+    },
+    {
       "Identity": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -5712,7 +5754,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 09:12:19 GMT"
+          "Value": "Thu, 19 Dec 2024 10:56:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5773,7 +5815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 09:12:19 GMT"
+          "Value": "Thu, 19 Dec 2024 10:56:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5818,7 +5860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 09:12:19 GMT"
+          "Value": "Thu, 19 Dec 2024 10:56:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5910,7 +5952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 09:12:19 GMT"
+          "Value": "Thu, 19 Dec 2024 10:56:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5963,7 +6005,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 09:12:19 GMT"
+          "Value": "Thu, 19 Dec 2024 10:56:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6000,7 +6042,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 09:12:19 GMT"
+          "Value": "Thu, 19 Dec 2024 10:56:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6019,6 +6061,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "FluPredict.ico",
+      "AssetFile": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\cwss25bdnh-omi6us8qrz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000819000819"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 10:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM="
+        }
+      ]
+    },
+    {
+      "Route": "FluPredict.ico",
+      "AssetFile": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\FluPredict.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 10:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM="
+        }
+      ]
+    },
+    {
+      "Route": "FluPredict.ico.gz",
+      "AssetFile": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\cwss25bdnh-omi6us8qrz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 10:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk="
+        }
+      ]
+    },
+    {
+      "Route": "FluPredict.omi6us8qrz.ico",
+      "AssetFile": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\cwss25bdnh-omi6us8qrz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000819000819"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 10:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "omi6us8qrz"
+        },
+        {
+          "Name": "label",
+          "Value": "FluPredict.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM="
+        }
+      ]
+    },
+    {
+      "Route": "FluPredict.omi6us8qrz.ico",
+      "AssetFile": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\wwwroot\\FluPredict.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 10:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "omi6us8qrz"
+        },
+        {
+          "Name": "label",
+          "Value": "FluPredict.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MI5uSev/9iKChaoZGQ+0mSopcIVhwEEcDFcVG0QfsJM="
+        }
+      ]
+    },
+    {
+      "Route": "FluPredict.omi6us8qrz.ico.gz",
+      "AssetFile": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\Debug\\net9.0\\compressed\\cwss25bdnh-omi6us8qrz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 10:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "omi6us8qrz"
+        },
+        {
+          "Name": "label",
+          "Value": "FluPredict.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FhNXwZGmQy2NEp2CzIP9n+w1oPKYD474kc1C+LwDaWk="
         }
       ]
     },
