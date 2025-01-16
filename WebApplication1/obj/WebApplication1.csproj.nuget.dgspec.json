@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,6 +63,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "pythonnet_netstandard_py39_win": {
+              "target": "Package",
+              "version": "[2.5.2, )"
             }
           },
           "imports": [

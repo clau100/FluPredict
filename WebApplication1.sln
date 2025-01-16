@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{967841FD-B366-4385-A4D2-B846C1DB9AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelWrapper", "..\..\Downloads\projects-oricepunemmergebinev2-main\code\c#modelwrapper\ModelWrapper\ModelWrapper\ModelWrapper.csproj", "{8AB21E7E-3EC5-4200-8BCE-BFEF3D62B9F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{967841FD-B366-4385-A4D2-B846C1DB9AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{967841FD-B366-4385-A4D2-B846C1DB9AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967841FD-B366-4385-A4D2-B846C1DB9AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB21E7E-3EC5-4200-8BCE-BFEF3D62B9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB21E7E-3EC5-4200-8BCE-BFEF3D62B9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB21E7E-3EC5-4200-8BCE-BFEF3D62B9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB21E7E-3EC5-4200-8BCE-BFEF3D62B9F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

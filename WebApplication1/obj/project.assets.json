@@ -889,6 +889,19 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
+      "pythonnet_netstandard_py39_win/2.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Python.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Python.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
         "type": "package",
         "dependencies": {
@@ -3053,6 +3066,19 @@
         "readme.md"
       ]
     },
+    "pythonnet_netstandard_py39_win/2.5.2": {
+      "sha512": "QRW4QK9SsD87Eaw/BgL+sbS3hpzusxfFGqAjtge/qIoXP9vH+2+gdgamibEn3fgzBYhnSTP81ceaby0RZ6eUmg==",
+      "type": "package",
+      "path": "pythonnet_netstandard_py39_win/2.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Python.Runtime.dll",
+        "lib/netstandard2.0/Python.Runtime.xml",
+        "pythonnet_netstandard_py39_win.2.5.2.nupkg.sha512",
+        "pythonnet_netstandard_py39_win.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
       "sha512": "UxWuisvZ3uVcVOLJQv7urM/JiQH+v3TmaJc1BLKl5Dxfm/nTzTUrqswCqg/INiYLi61AXnHo1M1JPmPqqLnAdg==",
       "type": "package",
@@ -3561,7 +3587,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
+      "pythonnet_netstandard_py39_win >= 2.5.2"
     ]
   },
   "packageFolders": {
@@ -3570,11 +3597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\claud\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\claud\\RiderProjects\\FluPredict\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3626,6 +3653,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "pythonnet_netstandard_py39_win": {
+            "target": "Package",
+            "version": "[2.5.2, )"
           }
         },
         "imports": [

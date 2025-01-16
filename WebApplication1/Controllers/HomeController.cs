@@ -35,6 +35,18 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpGet]
+    public IActionResult ResultsGood()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult ResultsBad()
+    {
+        return View();
+    }
+    
     [HttpPost]
     public async Task<IActionResult> Upload(IFormFile csvFile)
     {
@@ -51,7 +63,29 @@ public class HomeController : Controller
             await csvFile.CopyToAsync(stream);
         }
 
-        // Process the CSV file as needed
+        string pythonScriptPath =
+            @"C:\Users\claud\Downloads\projects-oricepunemmergebinev2-main\code\project"; //absolute path, trebuie schimbat la relative path
+        string csvPath = filePath; //eventual modificat cu datele efective ale unui pacient
+
+        try
+        {
+            using (var modelWrapper = new ModelWrapper(csvPath, pythonScriptPath))
+            { 
+                var predictions = modelWrapper.Predict();
+                if (predictions[0] == 1)
+                {
+                    RedirectToAction("ResultsGood");
+                }
+                else
+                {
+                    RedirectToAction("ResultsBad");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
 
         return RedirectToAction("Index");
     }
