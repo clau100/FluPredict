@@ -772,13 +772,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ceva.csv'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9grroqpr2s"},{"Name":"integrity","Value":"sha256-udNKvpwUQ6hjLc3Ai2rz\u002Bltfb9aPwDVrB7WpdMDKMR8="},{"Name":"label","Value":"_content/WebApplication1/uploads/ceva.csv"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022udNKvpwUQ6hjLc3Ai2rz\u002Bltfb9aPwDVrB7WpdMDKMR8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 18:51:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022udNKvpwUQ6hjLc3Ai2rz\u002Bltfb9aPwDVrB7WpdMDKMR8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 19:01:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebApplication1/uploads/ceva.csv">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ceva.csv'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-udNKvpwUQ6hjLc3Ai2rz\u002Bltfb9aPwDVrB7WpdMDKMR8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022udNKvpwUQ6hjLc3Ai2rz\u002Bltfb9aPwDVrB7WpdMDKMR8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 18:51:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022udNKvpwUQ6hjLc3Ai2rz\u002Bltfb9aPwDVrB7WpdMDKMR8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 19:01:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebApplication1/WebApplication1.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebApplication1.yj6fvmmoe8.bundle.scp.css'))</AssetFile>

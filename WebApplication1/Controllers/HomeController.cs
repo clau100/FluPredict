@@ -74,12 +74,9 @@ public class HomeController : Controller
                 var predictions = modelWrapper.Predict();
                 if (predictions[0] == 1)
                 {
-                    RedirectToAction("ResultsGood");
+                    return RedirectToAction("ResultsGood");
                 }
-                else
-                {
-                    RedirectToAction("ResultsBad");
-                }
+                return RedirectToAction("ResultsBad");
             }
         }
         catch (Exception ex)
